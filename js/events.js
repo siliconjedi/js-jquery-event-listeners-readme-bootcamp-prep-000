@@ -18,8 +18,11 @@ function pressIt(){
     if (key.which === 71) {
        alert('fdkdffd')
     }
-   
-  })
+  });
+}
+
+function submitIt(){
+  $()
 }
 
 $(document).ready(function(){
