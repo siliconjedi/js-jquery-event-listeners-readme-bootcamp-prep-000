@@ -22,7 +22,7 @@ function pressIt(){
 }
 
 function submitIt(){
-  $(":submit").on("submit",function(){
+  $("form :submit").on("submit",function(){
     alert('sdsdsdsd')
   })
 }
