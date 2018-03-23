@@ -22,7 +22,9 @@ function pressIt(){
 }
 
 function submitIt(){
-  $("input['type=")
+  $("input[type='submit']").on("submit",function(){
+    alert('sdsdsdsd')
+  })
 }
 
 $(document).ready(function(){
