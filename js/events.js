@@ -22,7 +22,7 @@ function pressIt(){
 }
 
 function submitIt(){
-  $()
+  $("input['type=")
 }
 
 $(document).ready(function(){
