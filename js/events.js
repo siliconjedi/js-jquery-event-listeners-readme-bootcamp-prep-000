@@ -21,7 +21,7 @@ function pressIt(){
 }
 
 function submitIt(){
-  $('form :submit').on("submit",function(){
+  $('form').on("submit",function(){
     alert('sdsdsdsd')
   })
 }
