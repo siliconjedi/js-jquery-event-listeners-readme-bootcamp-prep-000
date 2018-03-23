@@ -22,7 +22,7 @@ function pressIt(){
 }
 
 function submitIt(){
-  $("input[type='submit']").on("submit",function(){
+  $(":submit").on("submit",function(){
     alert('sdsdsdsd')
   })
 }
